@@ -37,6 +37,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    @media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .box {
@@ -97,4 +102,11 @@ footer {
     text-align: center;
     padding: 60px;
     background-color: white;
+}
+
+.foto {
+
+    @media (max-width: 530px) {
+        width: 100%;
+    }
 }
